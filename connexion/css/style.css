@@ -1,0 +1,124 @@
+body, html {
+	margin:0;
+	padding:0;
+}
+
+body  {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #4c4c4c;
+	background: #eee;
+	font-size: 15px;
+}
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+a {
+	color: #4c4c4c;
+	font-size:13px;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+.message {
+	color:#930;
+}
+/******** LOGIN ********/
+
+#login {
+	width: 340px;
+	margin: 120px auto 0 auto;
+}
+
+#login h1{
+	margin:0 0 5px 0;
+}
+
+#login #form{
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+	
+}
+
+#login #form #form-password label{
+	display;block;
+}
+
+#login #form input[type=text],
+#login #form input[type=password] {
+	color: #4c4c4c;
+	font-size: 24px;
+	line-height: 1;
+	width: 294px;
+	padding: 3px;
+	margin: 2px 0 15px 0;
+	border: 1px solid #ddd;
+	background: #fbfbfb;
+	outline: none;
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.10);
+}
+
+#login #form #form-rememberme {
+	float:left;
+}
+
+#login #form #form-submit {
+	float:right;
+}
+
+#login #form #form-submit button[type=submit]{
+	background: linear-gradient(to bottom, rgb(35, 35, 35) 0%,rgb(0, 0, 0) 100%) rgb(22, 22, 22);
+	color: #fff;
+	border: 1px solid #000;
+	height: 30px;
+	line-height: 20px;
+	font-size: 13px;
+	padding: 0 15px;
+	border-radius: 3px;
+}
+
+#login #form #recaptcha_image {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding:10px 0;
+}
+
+#login #form #recaptcha_widget {
+	margin-bottom:20px;
+}
+
+#login #form #recaptcha_widget a.bt {
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+	margin-left: 2px;
+	background: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	line-height: 0;
+	opacity: .55;
+}
+
+#login #form #recaptcha_widget #reload_bt {
+	background: url(../img/recaptcha.png) -63px;
+}
+#login #form #recaptcha_widget #audio_bt {
+	background: url(../img/recaptcha.png) -42px;
+}
+#login #form #recaptcha_widget #text_bt {
+	background: url(../img/recaptcha.png) -21px;
+}
+#login #form #recaptcha_widget #help_bt {
+	background: url(../img/recaptcha.png);
+}
+

@@ -1,0 +1,228 @@
+
+
+header a#administration {
+	position: absolute;
+	height: 30px;
+	line-height: 28px;
+	top: 20px;
+	right: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #383331;
+	padding: 0 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #000;
+}
+
+.sliders .update {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 999;
+}
+
+.sliders .sup {
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 999;
+}
+
+button.edit {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Helvetica Neue', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	padding: .5em 1.05em;
+	font-weight: 500;
+	font-size: .85em;
+	border: 1px solid #ddd;
+	background: linear-gradient(to bottom, #fafafa 0%,#d3d3d3 100%) #fafafa;
+	margin: 0 10px 10px 0;
+	border-radius: 3px;
+}
+
+button.edit:hover {
+	color:#fff;
+	background: linear-gradient(to bottom, #4c4c4c 0%,#262626 100%) #4c4c4c;
+}
+
+.message {
+	color:#fff;
+	font-weight:bold;
+}
+
+.upload {
+	max-height: 335px;
+	overflow: auto;
+}
+
+.ui-draggable {
+	cursor:move;
+}
+
+.draggable-hover section.ui-draggable{
+	border:3px solid #930;
+}
+
+.draggable-hover section.ui-draggable-dragging{
+	border:0;
+}
+	
+
+/********** Menu *********/
+
+ul#menu-admin {
+	list-style: none;
+	margin: 20px 0 20px 0;
+	padding: 0;
+	border-bottom: 1px solid #DADADA;
+}
+ul#menu-admin li {
+	display: inline-block;
+}
+
+ul#menu-admin li a.selected {
+	text-decoration: underline;
+}
+
+ul#menu-admin li a {
+	display: inline-block;
+	padding: 0 10px;
+	background: linear-gradient(to bottom, rgb(145, 30, 40) 0%,rgb(111, 23, 23) 100%) #72000a;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	border: 1px solid #DADADA;
+	border-bottom: 0;
+}
+
+/******** Contenu ********/
+
+.image_text .image button.modifier-image {
+	position:absolute;
+	top:10px;
+	z-index: 999;
+}
+
+.image_text-left .image button.modifier-image {
+	left:10px;
+}
+
+.image_text-right .image button.modifier-image {
+	right:10px;
+}
+
+/********* Fenetre *********/
+
+#dial {
+	background-color: rgba(252, 252, 252, .9);
+	height: 100%;
+	left: 0;
+	overflow: visible;
+	outline: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.fenetre {
+	position: relative;
+	margin: 150px auto 0 auto;
+	width: 500px;
+	border: 10px solid #333;
+	border-radius: 10px;
+	background: #fff;
+	color:#000;
+	padding: 0 20px;
+}
+
+.fenetre h3 {
+	margin: 10px 0;
+}
+
+.fenetre .form button[type=submit] {
+	margin: 10px 0;
+}
+
+.fenetre .close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	background: url(../../img/layers.png) no-repeat -90px 0px;
+	border: 0;
+}
+
+.fenetre .photo-upload-sliders {
+	position: relative;
+	display: inline-block;
+	margin: 5px 10px 5px 0;
+	height: 70px;
+	width: 200px;
+}
+
+.fenetre .photo-upload-sliders .sup-upload{
+	position: absolute;
+	top: 0px;
+	right: -5px;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/layers.png) no-repeat -129px 0px;
+	border: 0;
+}
+
+.fenetre .photo-upload-sliders .mini-upload{
+	width: 200px;
+	height: 70px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+}
+
+.fenetre .photo-upload {
+	position: relative;
+	display: inline-block;
+	margin: 5px 10px 5px 0px;
+	height: 70px;
+	width: 70px;
+}
+
+.fenetre .photo-upload .sup-upload{
+	position: absolute;
+	top: 0px;
+	right: -5px;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/layers.png) no-repeat -129px 0px;
+	border: 0;
+}
+
+.fenetre .photo-upload .mini-upload{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+}
+
+/********* Form *************/
+
+#form-modules select {
+	width:150px;
+}
+
+#form-modules input[type=text].custom {
+	width:50px;
+	margin-left:5px;
+}
+
+#form-modules span.text-custom {
+	margin-left:5px;
+}
